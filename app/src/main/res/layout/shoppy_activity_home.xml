@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="com.gipra.vicibshoppy.activity.ShoppyHome">
+
+    <include layout="@layout/shoppy_appbar_home"></include>
+
+    <include layout="@layout/shoppy_content_main"></include>
+
+    <include layout="@layout/shoppy_show_cart"></include>
+
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floating_action_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|right"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:contentDescription=""-->
+<!--        app:backgroundTint="@color/colorAccent"-->
+<!--        app:srcCompat="@android:drawable/ic_menu_edit" />-->
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="30dp"
+    android:background="@android:color/white"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="56dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to VICIB SHOPPY"
+        android:fontFamily="@font/open_sans_semibold"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"></TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/curved_grey"
+        android:layout_gravity="center"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/colorGrey"
+        android:text="Enter your pincode for products in your area"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:backgroundTint="@color/colorGrey"
+        android:layout_marginLeft="50dp"
+        app:boxStrokeColor="@color/colorPrimaryDark"
+        app:hintTextColor="@color/colorPrimaryDark"
+        android:hint="@string/pineCode">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pinCode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:foreground="?selectableItemBackground"
+        android:textAlignment="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+       app:elevation="5dp"
+        android:id="@+id/submitPincode"
+        android:fontFamily="@font/open_sans_semibold"
+        android:drawableRight="@drawable/ic_tick"
+        android:drawableTint="@color/colorWhite"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"></com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+
+</LinearLayout>

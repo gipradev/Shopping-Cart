@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/padding_10"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton">
+
+    </RadioButton>
+
+    <LinearLayout
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_toRightOf="@id/radioButton"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/open_sans_semibold"></TextView>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abcd"
+            android:fontFamily="@font/open_sans_semibold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abcd"
+            android:fontFamily="@font/open_sans_semibold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abcd"
+            android:fontFamily="@font/open_sans_semibold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/editButton"
+        android:layout_width="40dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/colorGrey"
+        android:src="@drawable/ic_edit">
+
+    </ImageButton>
+
+    <LinearLayout
+        android:id="@+id/options"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/selectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Deliver to this address"
+            android:layout_marginLeft="25dp"></Button>
+        <Button
+            android:id="@+id/removeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Remove"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="25dp"></Button>
+
+
+    </LinearLayout>
+</RelativeLayout>

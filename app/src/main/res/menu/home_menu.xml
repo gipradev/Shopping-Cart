@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menu_Cart"
+        android:icon="@drawable/placeholder"
+        android:title="Shopping Cart"
+        app:showAsAction="ifRoom|withText"></item>
+
+
+    <item
+        android:id="@+id/menu_bell"
+        android:icon="@drawable/ic_notifications"
+        android:title="Shopping Cart"
+        app:showAsAction="ifRoom|withText"></item>
+
+
+</menu>

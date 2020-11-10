@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/placeOrderView"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:background="#F4F3F3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:id="@+id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="Total amount"
+                android:textAllCaps="true"
+                android:textColor="@color/colorGrey"
+                android:textSize="12dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/totalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semibold"
+                android:text="$ 2016.15"
+                android:layout_gravity="right"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="22dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fabCheckout"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="?actionBarSize"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="Place Order"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+    </LinearLayout>
+    </FrameLayout>

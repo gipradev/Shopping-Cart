@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.BlankFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/categoryRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"></androidx.recyclerview.widget.RecyclerView>
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/viewMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="More"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:drawableRight="@drawable/ic_next"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            app:backgroundTint="@color/colorAccent">
+
+        </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
+
+        <!--    <TextView-->
+        <!--        android:id="@+id/viewMore"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="View More"-->
+        <!--        android:textAllCaps="true"-->
+        <!--        android:layout_gravity="center"-->
+        <!--        android:layout_margin="4dp"-->
+        <!--        android:visibility="gone"-->
+        <!--        android:layout_marginTop="5dp"-->
+        <!--        android:clickable="true"-->
+        <!--        android:background="?android:attr/selectableItemBackgroundBorderless"-->
+        <!--        android:textColor="@color/colorDarkPrimary"></TextView>-->
+
+    </LinearLayout>
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerHomeCat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <include layout="@layout/shimmer_hom_cat"></include>
+
+                <include layout="@layout/shimmer_hom_cat"></include>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <include layout="@layout/shimmer_hom_cat"></include>
+
+                <include layout="@layout/shimmer_hom_cat"></include>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <LinearLayout
+        android:id="@+id/noProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="100dp"
+
+            android:src="@drawable/no_products"></ImageView>
+    </LinearLayout>
+
+</FrameLayout>

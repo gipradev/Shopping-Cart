@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".activity.ViewcartActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        app:elevation="0dp"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/cartToolBar"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="scroll|enterAlways|snap"
+            android:layout_height="?actionBarSize">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:text="My Cart"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"></TextView>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/emptyCart">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Shopping bag is empty"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="@dimen/padding_10"
+            android:textSize="15dp"></TextView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/padding_10"
+            app:srcCompat="@drawable/empty_cart">
+
+        </ImageView>
+
+
+
+        <Button
+            android:id="@+id/keepShopping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="KEEP SHOPPING"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorBlack"
+            android:layout_marginRight="20dp"></Button>
+
+    </LinearLayout>
+
+    <include layout="@layout/shoppy_show_placeorder"></include>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerCartActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="?actionBarSize">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/shimmer_cart_item"></include>
+
+            <include layout="@layout/shimmer_cart_item"></include>
+
+            <include layout="@layout/shimmer_cart_item"></include>
+
+            <include layout="@layout/shimmer_cart_item"></include>
+
+            <include layout="@layout/shimmer_cart_item"></include>
+
+            <include layout="@layout/shimmer_cart_item"></include>
+
+            <include layout="@layout/shimmer_cart_item"></include>
+
+            <include layout="@layout/shimmer_cart_item"></include>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

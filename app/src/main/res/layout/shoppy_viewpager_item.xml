@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#BC03A9F4"
+    android:padding="50dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transitionName="productImage"
+        android:scaleType="centerCrop"
+        android:id="@+id/sideImage"></ImageView>
+
+</LinearLayout>
