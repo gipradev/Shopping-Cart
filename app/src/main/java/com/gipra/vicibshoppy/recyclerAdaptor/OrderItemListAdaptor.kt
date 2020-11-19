@@ -12,6 +12,11 @@ import com.gipra.vicibshoppy.R
 
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.shoppy_cart_item.view.*
+import kotlinx.android.synthetic.main.shoppy_cart_item.view.actualPrice
+import kotlinx.android.synthetic.main.shoppy_cart_item.view.category
+import kotlinx.android.synthetic.main.shoppy_cart_item.view.productImage
+import kotlinx.android.synthetic.main.shoppy_cart_item.view.productName
+import kotlinx.android.synthetic.main.shoppy_order_list_item.view.*
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -49,6 +54,7 @@ class OrderItemListAdaptor(
             itemView.productName.text = dataObject.getString("c_product")
             itemView.actualPrice.text = "₹ " + dataObject.getString("n_amount")
             itemView.category.text =   dataObject.getString("category_name")
+            itemView.itemCount.text =   dataObject.getString("n_quantity")
 
             //  itemView.discountPrice.setPaintFlags(itemView.discountPrice.getPaintFlags() or Paint.STRIKE_THRU_TEXT_FLAG)
         }

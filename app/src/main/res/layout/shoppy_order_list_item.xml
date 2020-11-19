@@ -69,5 +69,47 @@
 
     </RelativeLayout>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cartCount"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="5dp"
+        android:clickable="true"
+        android:longClickable="true"
+        android:foreground="?selectableItemBackgroundBorderless"
+        android:layout_marginRight="34dp"
+        app:contentPadding="2dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:layout_alignParentRight="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_shopping_cart"
+                android:backgroundTint="@color/colorWhite"></View>
+
+            <TextView
+                android:id="@+id/itemCount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:text="2"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
 
 </RelativeLayout>
