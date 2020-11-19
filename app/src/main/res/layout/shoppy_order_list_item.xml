@@ -77,7 +77,7 @@
         app:cardElevation="5dp"
         android:clickable="true"
         android:longClickable="true"
-        android:foreground="?selectableItemBackgroundBorderless"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
         android:layout_marginRight="34dp"
         app:contentPadding="2dp"
         android:visibility="visible"
