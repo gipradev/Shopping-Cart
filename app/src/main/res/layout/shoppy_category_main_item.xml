@@ -87,7 +87,7 @@
             android:id="@+id/changeLayout"
             android:background="@drawable/curved_primary"
             android:layout_width="match_parent"
-            android:visibility="visible"
+            android:visibility="gone"
             android:layout_height="36dp"
             android:layout_alignParentRight="true"
             android:gravity="center"
