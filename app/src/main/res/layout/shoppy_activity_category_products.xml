@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
-        android:background="@color/colorAccent"
+        android:background="@color/colorAccentShoppy"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
@@ -19,7 +19,7 @@
             android:fitsSystemWindows="true"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:titleTextColor="@color/colorWhite"></androidx.appcompat.widget.Toolbar>
+            app:titleTextColor="@color/colorWhiteShoppy"></androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
 

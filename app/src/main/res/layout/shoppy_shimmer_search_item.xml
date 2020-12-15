@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="?android:attr/listPreferredItemHeight"
-        android:background="@color/placeholder_bg"
+        android:background="@color/placeholder_bgShoppy"
         android:orientation="horizontal"
         >
 

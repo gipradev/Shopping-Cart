@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:text="Personal Details"
             android:textSize="25dp"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/colorBlackShoppy"
             android:paddingTop="@dimen/padding_10"
             android:paddingBottom="@dimen/padding_10"
             android:fontFamily="@font/open_sans_semibold"></TextView>
@@ -28,9 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="@color/colorGrey"
-            app:boxStrokeColor="@color/colorPrimaryDark"
-            app:hintTextColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorGreyShoppy"
+            app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+            app:hintTextColor="@color/colorPrimaryDarkShoppy"
  >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -47,9 +47,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="@color/colorGrey"
-            app:boxStrokeColor="@color/colorPrimaryDark"
-            app:hintTextColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorGreyShoppy"
+            app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+            app:hintTextColor="@color/colorPrimaryDarkShoppy"
             android:layout_marginTop="@dimen/padding_10"
             android:hint="@string/mobile">
 
@@ -67,9 +67,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:backgroundTint="@color/colorGrey"
-            app:boxStrokeColor="@color/colorPrimaryDark"
-            app:hintTextColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/colorGreyShoppy"
+            app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+            app:hintTextColor="@color/colorPrimaryDarkShoppy"
             android:layout_marginTop="@dimen/padding_10"
             android:hint="@string/house_building_name">
 

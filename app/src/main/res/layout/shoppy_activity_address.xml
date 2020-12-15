@@ -9,7 +9,7 @@
     tools:context=".VicibShoppy.activity.AddressActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:background="@color/colorAccent"
+        android:background="@color/colorAccentShoppy"
         app:elevation="0dp"
         android:fitsSystemWindows="true"
         android:layout_height="wrap_content">
@@ -20,7 +20,7 @@
             app:navigationIcon="@drawable/ic_arrow"
             app:title="Shipping address"
             app:layout_scrollFlags="scroll|enterAlways|snap"
-            app:titleTextColor="@color/colorWhite"
+            app:titleTextColor="@color/colorWhiteShoppy"
             android:layout_height="?actionBarSize">
 
         </androidx.appcompat.widget.Toolbar>

@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="300dp"
-        android:background="@color/colorAccent"
+        android:background="@color/colorAccentShoppy"
         android:visibility="gone">
 
 
@@ -85,7 +85,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/open_sans_semibold"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/colorBlackShoppy"
             android:textSize="20dp"></TextView>
 
 
@@ -111,7 +111,7 @@
                     android:layout_marginRight="2dp"
                     android:fontFamily="@font/open_sans_semibold"
                     android:paddingLeft="20dp"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/colorPrimaryShoppy"
                     android:textSize="20dp"></TextView>
 
                 <TextView
@@ -119,7 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/open_sans_semibold"
-                    android:textColor="@color/colorGrey"
+                    android:textColor="@color/colorGreyShoppy"
                     android:textSize="10dp"></TextView>
             </LinearLayout>
 
@@ -136,7 +136,7 @@
                 android:layout_marginRight="34dp"
                 app:contentPadding="2dp"
                 android:visibility="gone"
-                app:cardBackgroundColor="@color/colorAccent"
+                app:cardBackgroundColor="@color/colorAccentShoppy"
                 android:layout_alignParentRight="true">
 
                 <RelativeLayout
@@ -148,7 +148,7 @@
                         android:layout_height="30dp"
                         android:layout_centerInParent="true"
                         android:background="@drawable/ic_shopping_cart"
-                        android:backgroundTint="@color/colorWhite"></View>
+                        android:backgroundTint="@color/colorWhiteShoppy"></View>
 
                     <TextView
                         android:id="@+id/itemCount"
@@ -156,7 +156,7 @@
                         android:layout_height="match_parent"
                         android:gravity="top|center"
                         android:text="2"
-                        android:textColor="@color/colorBlack"
+                        android:textColor="@color/colorBlackShoppy"
                         android:textSize="15dp"
                         android:textStyle="bold">
 
@@ -186,7 +186,7 @@
                     android:clickable="true"
                     android:padding="5dp"
                     android:text=" - "
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="30dp"
                     android:textStyle="bold"></TextView>
 
@@ -198,7 +198,7 @@
                     android:layout_marginRight="@dimen/padding_10"
                     android:fontFamily="@font/open_sans_semibold"
                     android:text="1"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="25dp"
                     android:textStyle="bold"></TextView>
 
@@ -211,7 +211,7 @@
                     android:clickable="true"
                     android:padding="5dp"
                     android:text=" + "
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="30dp"
                     android:textStyle="bold"></TextView>
             </LinearLayout>
@@ -227,7 +227,7 @@
             android:fontFamily="@font/open_sans_semibold"
             android:paddingLeft="10dp"
             android:text="About this product"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/colorBlackShoppy"
             android:textSize="15dp"></TextView>
 
         <ScrollView
@@ -243,7 +243,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/AboutOrange"
-                android:textColor="@color/colorGrey"></TextView>
+                android:textColor="@color/colorGreyShoppy"></TextView>
 
         </ScrollView>
 
@@ -276,7 +276,7 @@
                     app:si_disabled_color="#B8B3B3"
                     app:si_enabled="false"
                     app:si_no_dash="true"
-                    app:si_tint_color="@color/colorPrimaryDark"
+                    app:si_tint_color="@color/colorPrimaryDarkShoppy"
                     app:srcCompat="@drawable/ic_heart" />
             </LinearLayout>
 
@@ -294,11 +294,11 @@
                 android:visibility="visible"
                 android:text="Add to Cart"
                 android:textAppearance="?attr/textAppearanceButton"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorWhiteShoppy"
                 android:textStyle="bold"
-                app:backgroundTint="@color/colorAccent"
-                app:iconTint="@color/colorWhite"
-                app:rippleColor="@color/colorDarkPrimary">
+                app:backgroundTint="@color/colorAccentShoppy"
+                app:iconTint="@color/colorWhiteShoppy"
+                app:rippleColor="@color/colorDarkPrimaryShoppy">
 
             </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
 
@@ -315,11 +315,11 @@
                 android:text="View Cart"
                 android:foreground="?attr/selectableItemBackgroundBorderless"
                 android:textAppearance="?attr/textAppearanceButton"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorWhiteShoppy"
                 android:textStyle="bold"
-                app:backgroundTint="@color/colorAccent"
-                app:iconTint="@color/colorWhite"
-                app:rippleColor="@color/colorDarkPrimary">
+                app:backgroundTint="@color/colorAccentShoppy"
+                app:iconTint="@color/colorWhiteShoppy"
+                app:rippleColor="@color/colorDarkPrimaryShoppy">
 
             </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
 

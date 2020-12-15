@@ -25,11 +25,11 @@
             android:layout_weight="1"
             android:layout_height="?actionBarSize"
             android:layout_margin="8dp"
-            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimaryShoppy"
             android:gravity="center"
             android:text="Check Out"
             android:textAllCaps="true"
-            android:textColor="@color/colorWhite">
+            android:textColor="@color/colorWhiteShoppy">
 
         </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
 

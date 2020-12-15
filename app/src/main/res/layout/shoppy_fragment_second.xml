@@ -25,7 +25,7 @@
                 android:paddingBottom="@dimen/padding_10"
                 android:gravity="left"
                 android:text="Location Details"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/colorBlackShoppy"
                 android:textSize="25dp"></TextView>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -34,10 +34,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_10"
-                android:backgroundTint="@color/colorGrey"
+                android:backgroundTint="@color/colorGreyShoppy"
                 android:hint="@string/house_building_name"
-                app:boxStrokeColor="@color/colorPrimaryDark"
-                app:hintTextColor="@color/colorPrimaryDark">
+                app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/house"
@@ -54,10 +54,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_10"
-                android:backgroundTint="@color/colorGrey"
+                android:backgroundTint="@color/colorGreyShoppy"
                 android:hint="@string/landmark"
-                app:boxStrokeColor="@color/colorPrimaryDark"
-                app:hintTextColor="@color/colorPrimaryDark">
+                app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/landmark"
@@ -113,10 +113,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_10"
-                android:backgroundTint="@color/colorGrey"
+                android:backgroundTint="@color/colorGreyShoppy"
                 android:hint="@string/pineCode"
-                app:boxStrokeColor="@color/colorPrimaryDark"
-                app:hintTextColor="@color/colorPrimaryDark">
+                app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/pinCode"
@@ -134,10 +134,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_10"
-                android:backgroundTint="@color/colorGrey"
+                android:backgroundTint="@color/colorGreyShoppy"
                 android:hint="City"
-                app:boxStrokeColor="@color/colorPrimaryDark"
-                app:hintTextColor="@color/colorPrimaryDark">
+                app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/city"
@@ -155,10 +155,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_10"
-                android:backgroundTint="@color/colorGrey"
+                android:backgroundTint="@color/colorGreyShoppy"
                 android:hint="Place"
-                app:boxStrokeColor="@color/colorPrimaryDark"
-                app:hintTextColor="@color/colorPrimaryDark">
+                app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/place"
@@ -188,10 +188,10 @@
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
                 android:textAlignment="center"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorWhiteShoppy"
                 android:textStyle="bold"
                 android:background="?android:attr/selectableItemBackgroundBorderless"
-                app:backgroundTint="@color/colorAccent"
+                app:backgroundTint="@color/colorAccentShoppy"
                 app:iconGravity="end">
 
             </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>
@@ -205,10 +205,10 @@
                     android:layout_marginLeft="50dp"
                     android:layout_marginRight="50dp"
                     android:textAlignment="center"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/colorWhiteShoppy"
                     android:textStyle="bold"
                     android:background="?android:attr/selectableItemBackgroundBorderless"
-                    app:backgroundTint="@color/colorAccent"
+                    app:backgroundTint="@color/colorAccentShoppy"
                     app:iconGravity="end">
 
                 </com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>

@@ -18,7 +18,7 @@
         android:fontFamily="@font/open_sans_semibold"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:textColor="@color/colorPrimary"></TextView>
+        android:textColor="@color/colorPrimaryShoppy"></TextView>
 
     <View
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:textColor="@color/colorGrey"
+        android:textColor="@color/colorGreyShoppy"
         android:text="Enter your pincode for products in your area"
         android:layout_gravity="center"
         android:layout_marginTop="10dp">
@@ -42,10 +42,10 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:layout_marginRight="50dp"
-        android:backgroundTint="@color/colorGrey"
+        android:backgroundTint="@color/colorGreyShoppy"
         android:layout_marginLeft="50dp"
-        app:boxStrokeColor="@color/colorPrimaryDark"
-        app:hintTextColor="@color/colorPrimaryDark"
+        app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+        app:hintTextColor="@color/colorPrimaryDarkShoppy"
         android:hint="@string/pineCode">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -63,13 +63,13 @@
         android:text="SUBMIT"
         android:foreground="?selectableItemBackground"
         android:textAlignment="center"
-        android:backgroundTint="@color/colorPrimary"
-        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/colorPrimaryShoppy"
+        android:textColor="@color/colorWhiteShoppy"
        app:elevation="5dp"
         android:id="@+id/submitPincode"
         android:fontFamily="@font/open_sans_semibold"
         android:drawableRight="@drawable/ic_tick"
-        android:drawableTint="@color/colorWhite"
+        android:drawableTint="@color/colorWhiteShoppy"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:textStyle="bold"></com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton>

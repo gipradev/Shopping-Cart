@@ -33,7 +33,7 @@
                 android:fontFamily="@font/open_sans_semibold"
                 android:gravity="center_vertical"
                 android:textAllCaps="true"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorWhiteShoppy"
                 android:textSize="10dp" />
 
             <TextView
@@ -43,7 +43,7 @@
                 android:fontFamily="@font/open_sans_semibold"
                 android:gravity="center_vertical"
                 android:textAllCaps="true"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/colorWhiteShoppy"
                 android:textSize="15dp" />
 
         </LinearLayout>
@@ -52,12 +52,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:drawableRight="@drawable/ic_next"
-            android:drawableTint="@color/colorWhite"
+            android:drawableTint="@color/colorWhiteShoppy"
             android:fontFamily="@font/open_sans_semibold"
             android:gravity="right|center_vertical"
             android:text="View cart"
             android:textAllCaps="true"
-            android:textColor="@color/colorWhite"
+            android:textColor="@color/colorWhiteShoppy"
             android:textSize="18dp"
             android:textStyle="bold" />
 

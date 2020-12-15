@@ -31,7 +31,7 @@
                     android:text="SHOPPY"
                     android:gravity="center"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/colorWhiteShoppy"
                     android:textSize="25sp">
 
                 </TextView>
@@ -63,7 +63,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/colorWhite"
+                android:background="@color/colorWhiteShoppy"
                 app:cardCornerRadius="10dp"
                 android:layout_marginRight="15dp"
                 >
@@ -85,7 +85,7 @@
                         android:inputType="textAutoComplete|textAutoCorrect"
                         android:visibility="visible"
                         android:drawableStart="@drawable/ic_search"
-                        android:drawableTint="@color/colorGrey"
+                        android:drawableTint="@color/colorGreyShoppy"
                         android:drawablePadding="10dp"
                         android:paddingLeft="5dp"
                         android:completionThreshold="1"

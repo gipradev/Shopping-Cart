@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorPrimaryShoppy"
         android:fitsSystemWindows="true"
         app:elevation="0dp">
 
@@ -20,7 +20,7 @@
             app:layout_scrollFlags="scroll|enterAlways|snap"
             app:navigationIcon="@drawable/ic_arrow"
             app:title="Vicib Shoppy"
-            app:titleTextColor="@color/colorWhite">
+            app:titleTextColor="@color/colorWhiteShoppy">
 
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
@@ -54,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/open_sans_semibold"
                     android:text="Items in Cart"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="20dp"></TextView>
 
 
@@ -88,7 +88,7 @@
                             android:gravity="center"
                             android:text="Total amount"
                             android:textAllCaps="true"
-                            android:textColor="@color/colorBlack"
+                            android:textColor="@color/colorBlackShoppy"
                             android:textSize="12dp">
 
                         </TextView>
@@ -102,7 +102,7 @@
                             android:gravity="center"
                             android:text="$ 2016.15"
                             android:textAllCaps="true"
-                            android:textColor="@color/colorBlack"
+                            android:textColor="@color/colorBlackShoppy"
                             android:textSize="22dp">
 
                         </TextView>
@@ -117,10 +117,10 @@
                     android:layout_marginLeft="@dimen/padding_10"
                     android:layout_marginTop="@dimen/padding_10"
                     android:layout_marginRight="@dimen/padding_10"
-                    android:backgroundTint="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccentShoppy"
                     android:foreground="?android:attr/selectableItemBackgroundBorderless"
                     android:text="Change Cart Items"
-                    android:textColor="@color/colorBlack"></Button>
+                    android:textColor="@color/colorBlackShoppy"></Button>
 
             </LinearLayout>
 
@@ -141,7 +141,7 @@
                     android:layout_marginBottom="@dimen/padding_10"
                     android:fontFamily="@font/open_sans_semibold"
                     android:text="Shipping Address"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="20dp"></TextView>
 
                 <TextView
@@ -151,7 +151,7 @@
                     android:fontFamily="@font/open_sans_semibold"
                     android:text="NAME"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="15dp"></TextView>
 
                 <TextView
@@ -186,9 +186,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/padding_10"
-                    android:backgroundTint="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccentShoppy"
                     android:foreground="?android:attr/selectableItemBackgroundBorderless"
-                    android:textColor="@color/colorBlack"></Button>
+                    android:textColor="@color/colorBlackShoppy"></Button>
 
 
             </LinearLayout>

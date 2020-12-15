@@ -87,14 +87,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/padding_10"
             android:layout_marginRight="@dimen/padding_10"
-            android:backgroundTint="@color/placeholder_bg"></Button>
+            android:backgroundTint="@color/placeholder_bgShoppy"></Button>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/padding_10"
             android:layout_marginRight="@dimen/padding_10"
-            android:backgroundTint="@color/placeholder_bg"
+            android:backgroundTint="@color/placeholder_bgShoppy"
             ></Button>
 
 

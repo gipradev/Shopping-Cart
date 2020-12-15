@@ -29,7 +29,7 @@
             android:text="NAME"
             android:textAllCaps="true"
             android:textSize="20dp"
-            android:textColor="@color/colorBlack"
+            android:textColor="@color/colorBlackShoppy"
             android:fontFamily="@font/open_sans_semibold"></TextView>
 
         <TextView
@@ -65,7 +65,7 @@
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:layout_height="40dp"
         android:layout_alignParentRight="true"
-        android:backgroundTint="@color/colorGrey"
+        android:backgroundTint="@color/colorGreyShoppy"
         android:src="@drawable/ic_edit">
 
     </ImageButton>
@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="25dp"
-            android:backgroundTint="@color/colorAccent"
+            android:backgroundTint="@color/colorAccentShoppy"
             android:text="Deliver to this address"
             android:layout_marginLeft="25dp"></Button>
         <Button
@@ -92,9 +92,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="25dp"
-            android:backgroundTint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimaryShoppy"
             android:text="Remove"
-            android:textColor="@color/colorWhite"
+            android:textColor="@color/colorWhiteShoppy"
             android:layout_marginLeft="25dp"></Button>
 
 

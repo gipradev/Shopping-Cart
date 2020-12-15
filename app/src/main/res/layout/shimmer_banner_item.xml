@@ -14,7 +14,7 @@
         android:foreground="?android:attr/selectableItemBackground"
         android:layout_width="300dp"
         android:layout_height="120dp"
-        android:background="@color/placeholder_bg"
+        android:background="@color/placeholder_bgShoppy"
         android:layout_gravity="center_horizontal"
         android:scaleType="centerCrop"
         android:id="@+id/bannerImage">

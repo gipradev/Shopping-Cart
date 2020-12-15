@@ -51,7 +51,7 @@
                     android:layout_width="80dp"
                     android:layout_height="25dp"
                     android:text="Orange"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="@dimen/padding_10">
 
                 </TextView>
@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="$ 68.05"
-                    android:textColor="@color/colorGrey"
+                    android:textColor="@color/colorGreyShoppy"
                     android:textSize="8dp">
 
                 </TextView>
@@ -89,7 +89,7 @@
         app:cardCornerRadius="15dp"
         app:cardElevation="5dp"
         app:contentPadding="2dp"
-        app:cardBackgroundColor="@color/colorAccent"
+        app:cardBackgroundColor="@color/colorAccentShoppy"
         android:layout_alignParentRight="true">
 
         <RelativeLayout
@@ -101,7 +101,7 @@
                 android:layout_height="20dp"
                 android:layout_centerInParent="true"
                 android:background="@drawable/ic_shopping_cart"
-                android:backgroundTint="@color/colorWhite"></View>
+                android:backgroundTint="@color/colorWhiteShoppy"></View>
 
             <TextView
                 android:id="@+id/itemCount"
@@ -109,7 +109,7 @@
                 android:layout_height="match_parent"
                 android:gravity="top|center"
                 android:text="2"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/colorBlackShoppy"
                 android:textSize="@dimen/padding_10"
                 android:textStyle="bold">
 

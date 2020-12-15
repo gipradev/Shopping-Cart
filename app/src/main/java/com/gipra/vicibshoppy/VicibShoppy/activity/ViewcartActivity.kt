@@ -43,7 +43,7 @@ class ViewcartActivity : AppCompatActivity(), CartRecycler.CartClickListiner, Vi
         super.onCreate(savedInstanceState)
         setContentView(R.layout.shoppy_activity_viewcart)
 
-        cartToolBar.setTitleTextColor(R.color.colorBlack)
+        cartToolBar.setTitleTextColor(R.color.colorBlackShoppy)
         cartToolBar.setNavigationIcon(R.drawable.ic_arrow_accent)
         cartToolBar.setNavigationOnClickListener { onBackPressed() }
         //************************************************************************************************

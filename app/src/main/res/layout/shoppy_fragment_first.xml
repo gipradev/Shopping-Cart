@@ -26,7 +26,7 @@
                 android:gravity="left"
                 android:text="Personal Details"
                 android:layout_marginBottom="25dp"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/colorBlackShoppy"
                 android:textSize="25dp"></TextView>
 
             <LinearLayout
@@ -41,10 +41,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
 
-                    android:backgroundTint="@color/colorGrey"
+                    android:backgroundTint="@color/colorGreyShoppy"
                     android:hint="@string/firstName"
-                    app:boxStrokeColor="@color/colorPrimaryDark"
-                    app:hintTextColor="@color/colorPrimaryDark">
+                    app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                    app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/firstName"
@@ -63,10 +63,10 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="5dp"
                     android:visibility="gone"
-                    android:backgroundTint="@color/colorGrey"
+                    android:backgroundTint="@color/colorGreyShoppy"
                     android:hint="@string/second_name"
-                    app:boxStrokeColor="@color/colorPrimaryDark"
-                    app:hintTextColor="@color/colorPrimaryDark">
+                    app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                    app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/secondName"
@@ -87,10 +87,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_10"
-                android:backgroundTint="@color/colorGrey"
+                android:backgroundTint="@color/colorGreyShoppy"
                 android:hint="@string/mobile"
-                app:boxStrokeColor="@color/colorPrimaryDark"
-                app:hintTextColor="@color/colorPrimaryDark">
+                app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/mobile"
@@ -108,10 +108,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_10"
-                android:backgroundTint="@color/colorGrey"
+                android:backgroundTint="@color/colorGreyShoppy"
                 android:hint="@string/email"
-                app:boxStrokeColor="@color/colorPrimaryDark"
-                app:hintTextColor="@color/colorPrimaryDark">
+                app:boxStrokeColor="@color/colorPrimaryDarkShoppy"
+                app:hintTextColor="@color/colorPrimaryDarkShoppy">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/email"

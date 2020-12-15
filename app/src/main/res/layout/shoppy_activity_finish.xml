@@ -34,7 +34,7 @@
                 android:fontFamily="@font/open_sans_semibold"
                 android:gravity="center"
                 android:text="Your order is placed \n Successfully"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/colorBlackShoppy"
                 android:id="@+id/textMessage"
                 android:visibility="gone"
                 android:textSize="25dp"></TextView>
@@ -47,7 +47,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="80dp"
-            android:backgroundTint="@color/colorWhite"
+            android:backgroundTint="@color/colorWhiteShoppy"
             android:gravity="center"
             android:text="Close" />
     </RelativeLayout>

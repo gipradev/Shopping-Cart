@@ -79,14 +79,14 @@
                 android:layout_height="30dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="@dimen/padding_10"
-                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabIndicatorColor="@color/colorPrimaryShoppy"
                 app:tabIndicatorFullWidth="false"
                 app:tabIndicatorHeight="3dp"
                 app:tabMode="scrollable"
-                app:tabRippleColor="@color/colorDarkPrimary"
-                app:tabSelectedTextColor="@color/colorPrimary"
+                app:tabRippleColor="@color/colorDarkPrimaryShoppy"
+                app:tabSelectedTextColor="@color/colorPrimaryShoppy"
                 app:tabTextAppearance="@style/tab_text"
-                app:tabTextColor="@color/colorPrimary"
+                app:tabTextColor="@color/colorPrimaryShoppy"
                 app:tabUnboundedRipple="true"></com.google.android.material.tabs.TabLayout>
 
 
@@ -162,7 +162,7 @@
                     android:padding="5dp"
                     android:text="Top Rating"
                     android:textAllCaps="false"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="20dp">
 
                 </TextView>
@@ -176,7 +176,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:text="View all"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/colorAccentShoppy"
                     android:textSize="14dp"
                     android:clickable="true"
                     android:background="?android:attr/selectableItemBackgroundBorderless">
@@ -236,7 +236,7 @@
                     android:padding="5dp"
                     android:text="Recommendations"
                     android:textAllCaps="false"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorBlackShoppy"
                     android:textSize="20dp">
 
                 </TextView>
@@ -250,7 +250,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:text="View all"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/colorAccentShoppy"
                     android:textSize="14dp"
                     android:clickable="true"
                     android:background="?android:attr/selectableItemBackgroundBorderless">

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#DFED1C24</color>
-    <color name="colorPrimaryDark">#DFED1C24</color>
-    <color name="colorDarkPrimary">#DFAF161C</color>
-    <color name="colorAccent">#70bde7</color>
-    <color name="colorWhite">#FFFFFF</color>
-    <color name="colorGrey">#8F8F8F</color>
-    <color name="colorBlack">#000000</color>
-    <color name="trans">#80000000</color>
+    <color name="colorPrimaryShoppy">#DFED1C24</color>
+    <color name="colorPrimaryDarkShoppy">#DFED1C24</color>
+    <color name="colorDarkPrimaryShoppy">#DFAF161C</color>
+    <color name="colorAccentShoppy">#70bde7</color>
+    <color name="colorWhiteShoppy">#FFFFFF</color>
+    <color name="colorGreyShoppy">#8F8F8F</color>
+    <color name="colorBlackShoppy">#000000</color>
+    <color name="transShoppy">#80000000</color>
 
 
-    <color name="placeholder_bg">#dddddd</color>
-    <color name="item_name">#0c0c0c</color>
-    <color name="description">#1a1a1a</color>
-    <color name="chef">#777</color>
-    <color name="timestamp">#777</color>
-
+    <color name="placeholder_bgShoppy">#dddddd</color>
 
 </resources>

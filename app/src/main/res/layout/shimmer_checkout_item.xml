@@ -28,7 +28,7 @@
                     android:id="@+id/productImage"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:background="@color/placeholder_bg"
+                    android:background="@color/placeholder_bgShoppy"
                     android:scaleType="centerCrop"></ImageView>
 
 
@@ -47,7 +47,7 @@
                     android:layout_width="80dp"
                     android:layout_height="15dp"
                     android:layout_marginBottom="5dp"
-                    android:background="@color/placeholder_bg"
+                    android:background="@color/placeholder_bgShoppy"
                     android:textSize="@dimen/padding_10">
 
                 </TextView>
@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="15dp"
                     android:layout_marginTop="4dp"
-                    android:background="@color/placeholder_bg">
+                    android:background="@color/placeholder_bgShoppy">
 
                 </TextView>
             </LinearLayout>
@@ -81,7 +81,7 @@
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_alignParentRight="true"
-        app:cardBackgroundColor="@color/placeholder_bg"
+        app:cardBackgroundColor="@color/placeholder_bgShoppy"
         app:cardCornerRadius="15dp"
         app:cardElevation="5dp"
         app:contentPadding="2dp">
@@ -96,7 +96,7 @@
                 android:layout_height="20dp"
                 android:layout_centerInParent="true"
                 android:background="@drawable/ic_shopping_cart"
-                android:backgroundTint="@color/colorWhite"></View>
+                android:backgroundTint="@color/colorWhiteShoppy"></View>
 
             <TextView
                 android:id="@+id/itemCount"
@@ -104,7 +104,7 @@
                 android:layout_height="match_parent"
                 android:gravity="top|center"
                 android:text="2"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/colorBlackShoppy"
                 android:textSize="@dimen/padding_10"
                 android:textStyle="bold">
 

@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
+        android:background="@color/colorAccentShoppy"
         android:fitsSystemWindows="true"
         app:elevation="0dp">
 
@@ -20,7 +20,7 @@
             android:layout_height="?actionBarSize"
             app:layout_scrollFlags="scroll|enterAlways|snap"
             app:title="Order History"
-            app:titleTextColor="@color/colorWhite">
+            app:titleTextColor="@color/colorWhiteShoppy">
 
         </com.google.android.material.appbar.MaterialToolbar>
 
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/open_sans_semibold"
                 android:text="Your previous orders"
-                android:textColor="@color/colorBlack"
+                android:textColor="@color/colorBlackShoppy"
                 android:textSize="20dp">
 
             </TextView>
