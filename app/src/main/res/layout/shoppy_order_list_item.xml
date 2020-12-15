@@ -37,6 +37,7 @@
                 android:id="@+id/productName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
                 android:text="Orange"
                 android:textColor="@color/colorBlack"
                 android:textSize="16dp">
@@ -78,7 +79,6 @@
         android:clickable="true"
         android:longClickable="true"
         android:background="?android:attr/selectableItemBackgroundBorderless"
-        android:layout_marginRight="34dp"
         app:contentPadding="2dp"
         android:visibility="visible"
         app:cardBackgroundColor="@color/colorAccent"

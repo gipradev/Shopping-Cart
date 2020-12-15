@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="false"
-    tools:context="com.gipra.vicibshoppy.activity.ShoppyHome">
+    tools:context=".VicibShoppy.activity.ShoppyHome">
 
     <include layout="@layout/shoppy_appbar_home"></include>
 

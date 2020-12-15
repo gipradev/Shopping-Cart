@@ -290,16 +290,17 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_10"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <ImageView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="15dp"
-                android:text="That's all.."
-                android:textSize="15dp"></TextView>
+                android:src="@drawable/footer"
+                android:scaleType="centerCrop"
+                ></ImageView>
 
         </LinearLayout>
 
